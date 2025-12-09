@@ -1,0 +1,47 @@
+.sits .sits__checked {
+  position: fixed;
+  height:380px;
+  font-size:14px;
+  width: 100px;
+  background-color: #4c4145;
+  padding-top:40px;
+  margin-top:2%;
+  right:6%;
+}
+.sits .sits__checked:before {
+  content: "\f00c";
+  font: 13px "FontAwesome";
+  color: #ffffff;
+  position:absolute;
+  top: 20px;
+  left:43px;
+}
+.sits .sits__checked:after {
+  content: "=";
+  font: 13px;
+  color: #ffffff;
+  position: absolute;
+  left:43px;
+  bottom: 41px;
+}
+.sits .sits__checked .checked-place {
+  overflow: hidden;
+  max-height: 340px;
+}
+.sits .sits__checked .checked-result {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  position: absolute;
+  bottom:20px;
+  left:32px;
+}
+.sits .sits__checked .choosen-place {
+  display: block;
+  color: #ffffff;
+  font-size: 10px;
+  padding: 8px 0;
+}
+
+
+
