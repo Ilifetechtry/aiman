@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     <h3 class="text-center mb-4 fw-bold fs-1"
     style="color:#1a4309ff; padding:10px; border-radius:8px;">
-    Login
+    Login STUDENT
     </h3>
 
 
